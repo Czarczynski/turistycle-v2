@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "675432498642",
+    "firebase_url": "https://turistycle-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "turistycle",
+    "storage_bucket": "turistycle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675432498642:android:7046cc4c857fdaf615f40b",
+        "android_client_info": {
+          "package_name": "com.turistycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675432498642-gdi902a3fnve4n2f2r4rk23ii321o8ot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.turistycle",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "675432498642-egoms6ee16sn4pbvh70bk4luv196v0mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhu_Ex6Nb6VzPKupUiWNd00IwgYL7SYYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675432498642-egoms6ee16sn4pbvh70bk4luv196v0mc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "675432498642-1poqf3acf7gnk8j1c5a7s21j65a2eb1a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turistycle.v2.turistycle"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675432498642:android:9e98b32f221832fc15f40b",
+        "android_client_info": {
+          "package_name": "com.turistycle.v2.turistycle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675432498642-0soirui4qlu803jho3nl4115bdf6n7u8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.turistycle.v2.turistycle",
+            "certificate_hash": "4dddd3f1c486bfdca0bfd957b7e08bf50afda88f"
+          }
+        },
+        {
+          "client_id": "675432498642-egoms6ee16sn4pbvh70bk4luv196v0mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhu_Ex6Nb6VzPKupUiWNd00IwgYL7SYYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675432498642-egoms6ee16sn4pbvh70bk4luv196v0mc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "675432498642-1poqf3acf7gnk8j1c5a7s21j65a2eb1a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.turistycle.v2.turistycle"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
