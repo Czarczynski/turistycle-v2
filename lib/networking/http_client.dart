@@ -13,7 +13,7 @@ class HttpClient {
 
   HttpClient._internal() {
     _handleRequest();
-    _dioClient.options.baseUrl = Config.API_URL;
+    _dioClient.options.baseUrl = Config.apiUrl;
   }
 
   Future<Response> get(url,

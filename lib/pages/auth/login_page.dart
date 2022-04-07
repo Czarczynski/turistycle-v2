@@ -19,7 +19,7 @@ class LoginPage extends StatelessWidget {
           children: [
             LoginButton(
               icon: FontAwesomeIcons.userNinja,
-              color: Colors.green,
+              color: Colors.red,
               function: () async => await AuthService().logInAnonymous(),
               text: 'Continue as Guest',
             ),

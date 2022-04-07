@@ -1,3 +1,3 @@
 class Config{
-  static const String API_URL = 'https://turistycle-api.herokuapp.com/api/v1';
+  static const String apiUrl = 'https://turistycle-api.herokuapp.com/api/v1';
 }

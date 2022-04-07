@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:turistycle/components/long_button.dart';
+import 'package:turistycle/components/switcher.dart';
 import 'package:turistycle/pages/dashboard/dashboard_page.dart';
 import 'package:turistycle/services/auth_service.dart';
 import 'package:turistycle/theme/colors.dart';
@@ -19,7 +20,7 @@ class SettingsPage extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.only(top: 20),
               child: ListView.builder(
-                itemCount: 4,
+                itemCount: 5,
                 itemBuilder: (BuildContext context, int index) {
                   switch (index) {
                     case 0:
@@ -51,6 +52,11 @@ class SettingsPage extends StatelessWidget {
                           title: "Logout",
                           onPressed: () async => await AuthService().signOut(),
                         ),
+                      );
+                    case 4:
+                      return const Padding(
+                        padding: EdgeInsets.only(top: 40),
+                        child: ModeSwitcher(),
                       );
                     default:
                       return const Placeholder();

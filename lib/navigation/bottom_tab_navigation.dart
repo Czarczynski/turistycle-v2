@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:turistycle/models/tab_details_object.dart';
 import 'package:turistycle/navigation/settings_navigator.dart';
 import 'package:turistycle/pages/dashboard/dashboard_page.dart';
+import 'package:turistycle/pages/social/social_page.dart';
 import 'package:turistycle/theme/colors.dart';
 
 class BottomTabNavigation extends StatefulWidget {
@@ -31,7 +32,7 @@ class _BottomTabNavigationStateState extends State<BottomTabNavigation> {
     ),
     TabDetailsObject(index: 2, widget: const Text("Map")),
     TabDetailsObject(
-        index: 3, widget: const Text("Community"), title: "Community"),
+        index: 3, widget: SocialPage(), title: "Community"),
     TabDetailsObject(
         index: 4, widget: const SettingsNavigator(), title: "Settings"),
   ];
